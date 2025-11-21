@@ -1,0 +1,27 @@
+from_course_id,to_course_id,edge_relation_type,weight_nonnegative,combined_difficulty,from_course_name,to_course_name,required_by_company,importance_score,is_core
+C0,C1,prerequisite,18,13,Programming Basics,Data Structures Intro,GOOGLE_SDE1,0.85,TRUE
+C1,C2,prerequisite,25,17,Data Structures Intro,Algorithms & Complexity,AMAZON_SDE1,0.90,TRUE
+C0,C3,support,12,10,Programming Basics,Discrete Math,NONE,0.40,FALSE
+C3,C2,recommended,22,18,Discrete Math,Algorithms & Complexity,MICROSOFT_SWE,0.90,FALSE
+C1,C4,prerequisite,28,21,Data Structures Intro,Advanced Data Structures,META_SWE,0.88,TRUE
+C2,C4,prerequisite,31,22,Algorithms & Complexity,Advanced Data Structures,GOOGLE_SDE1,0.88,TRUE
+C4,C5,follow-up,22,19,Advanced Data Structures,Advanced Algorithms,NVIDIA_AI,0.95,TRUE
+C2,C5,prerequisite,27,21,Algorithms & Complexity,Advanced Algorithms,UBER_ML,0.95,TRUE
+C0,C6,prerequisite,12,10,Programming Basics,OOP in Java,ATLASSIAN_BACKEND,0.75,TRUE
+C6,C7,prerequisite,24,19,OOP in Java,Software Engineering,AMAZON_SDE1,0.92,TRUE
+C2,C7,prerequisite,27,22,Algorithms & Complexity,Software Engineering,GOOGLE_SDE1,0.92,TRUE
+C1,C8,prerequisite,24,21,Data Structures Intro,Database Systems,META_SWE,0.80,TRUE
+C2,C9,prerequisite,25,19,Algorithms & Complexity,Computer Networks,GOOGLE_SDE1,0.82,TRUE
+C9,C10,prerequisite,21,16,Computer Networks,Web Development,ATLASSIAN_BACKEND,0.85,TRUE
+C8,C10,prerequisite,25,20,Database Systems,Web Development,AMAZON_SDE1,0.85,TRUE
+C7,C11,prerequisite,29,24,Software Engineering,System Design Project,GOOGLE_SDE1,1.00,TRUE
+C4,C11,prerequisite,26,20,Advanced Data Structures,System Design Project,META_SWE,1.00,TRUE
+C10,C11,prerequisite,22,18,Web Development,System Design Project,UBER_ML,1.00,TRUE
+C0,C12,prerequisite,15,12,Programming Basics,Web Fundamentals,NONE,0.30,FALSE
+C12,C10,support,13,11,Web Fundamentals,Web Development,GOOGLE_SDE1,0.85,FALSE
+C3,C13,support,16,13,Discrete Math,Probability & Stats,NONE,0.50,FALSE
+C13,C14,prerequisite,26,19,Probability & Stats,Machine Learning,NVIDIA_AI,0.70,FALSE
+C2,C14,recommended,22,17,Algorithms & Complexity,Machine Learning,UBER_ML,0.70,FALSE
+C5,C15,support,19,16,Advanced Algorithms,Competitive Programming,NONE,0.60,FALSE
+C4,C15,recommended,23,18,Advanced Data Structures,Competitive Programming,META_SWE,0.60,FALSE
+
