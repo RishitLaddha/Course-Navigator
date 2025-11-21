@@ -1,0 +1,33 @@
+from_node,from_name,to_node,to_name,edge_weight,is_terminal_from,is_terminal_to,from_difficulty,to_difficulty,from_category,to_category,edge_type,overlap_score,is_prerequisite_hard,estimated_hours
+A,Programming Basics,B,Data Structures,2,False,False,1,3,Programming,Programming,prerequisite,0.3,True,12
+A,Programming Basics,C,Algorithms,3,False,False,1,4,Programming,Programming,prerequisite,0.2,True,15
+A,Programming Basics,H,Operating Systems Basics,4,False,False,1,2,Programming,Systems,recommended,0.1,False,10
+B,Data Structures,C,Algorithms,1,False,False,3,4,Programming,Programming,prerequisite,0.6,True,20
+B,Data Structures,D,Operating Systems,4,False,True,3,4,Programming,Systems,prerequisite,0.4,True,25
+B,Data Structures,E,DBMS,3,False,False,3,3,Programming,Database,recommended,0.3,False,18
+C,Algorithms,D,Operating Systems,4,False,True,4,4,Programming,Systems,prerequisite,0.5,True,22
+C,Algorithms,E,DBMS,2,False,False,4,3,Programming,Database,prerequisite,0.2,True,15
+C,Algorithms,F,Computer Networks,3,False,True,4,4,Programming,Networking,recommended,0.4,False,20
+C,Algorithms,I,Discrete Math,2,False,False,4,3,Programming,Math,prerequisite,0.3,True,12
+D,Operating Systems,J,Advanced OS,4,True,False,4,5,Systems,Systems,prerequisite,0.5,True,30
+D,Operating Systems,K,System Security,3,True,False,4,5,Systems,Security,recommended,0.3,False,28
+E,DBMS,F,Computer Networks,3,False,True,3,4,Database,Networking,alternative,0.2,False,20
+E,DBMS,G,System Design Basics,2,False,False,3,3,Database,Systems,prerequisite,0.4,True,16
+E,DBMS,L,Data Warehousing,4,False,False,3,4,Database,Database,recommended,0.5,False,22
+F,Computer Networks,M,Network Security,3,True,False,4,4,Networking,Security,prerequisite,0.6,True,25
+F,Computer Networks,N,Distributed Systems,4,True,False,4,4,Networking,Systems,prerequisite,0.5,True,28
+G,System Design Basics,N,Distributed Systems,3,False,False,3,4,Systems,Systems,prerequisite,0.4,True,21
+G,System Design Basics,O,Cloud Computing Basics,2,False,False,3,3,Systems,Cloud,recommended,0.3,False,14
+H,Operating Systems Basics,D,Operating Systems,2,False,True,2,4,Systems,Systems,prerequisite,0.5,True,18
+H,Operating Systems Basics,K,System Security,4,False,False,2,5,Systems,Security,recommended,0.3,False,20
+I,Discrete Math,C,Algorithms,1,False,False,3,4,Math,Programming,prerequisite,0.5,True,10
+I,Discrete Math,J,Advanced OS,3,False,False,3,5,Math,Systems,alternative,0.2,False,15
+J,Advanced OS,P,Virtualization Concepts,3,False,False,5,4,Systems,Cloud,recommended,0.4,False,24
+K,System Security,M,Network Security,2,False,False,5,4,Security,Security,prerequisite,0.6,True,22
+L,Data Warehousing,O,Cloud Computing Basics,3,False,False,4,3,Database,Cloud,recommended,0.3,False,20
+M,Network Security,Q,Cybersecurity Fundamentals,4,True,False,4,4,Security,Security,prerequisite,0.5,True,26
+N,Distributed Systems,R,Cloud Architecture,3,True,False,4,5,Systems,Cloud,prerequisite,0.4,True,30
+O,Cloud Computing Basics,R,Cloud Architecture,2,False,False,3,5,Cloud,Cloud,prerequisite,0.5,True,22
+P,Virtualization Concepts,R,Cloud Architecture,3,False,False,4,5,Cloud,Cloud,recommended,0.3,False,24
+Q,Cybersecurity Fundamentals,S,Secure Coding,3,False,False,4,4,Security,Security,prerequisite,0.4,True,20
+R,Cloud Architecture,T,Scalable Systems,4,False,False,5,5,Cloud,Systems,prerequisite,0.6,True,32

@@ -1,0 +1,6 @@
+{
+    "java.project.outputPath": ".",
+    "java.project.sourcePaths": ["."],
+    "java.compile.nullAnalysis.mode": "automatic"
+}
+
